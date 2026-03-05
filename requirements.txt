@@ -1,0 +1,9 @@
+PyQt6
+sounddevice
+numpy
+pynput
+groq
+python-dotenv
+flask
+pywin32
+pyperclip

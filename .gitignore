@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+sflow.db
+*.wav
+*.mp3
+.vscode/
+*.egg-info/
+dist/
+build/
