@@ -3,7 +3,16 @@
     "allow": [
       "Bash(gh auth status)",
       "Bash(git add .)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create sflow --public --source=. --remote=origin --push)",
+      "Bash(powershell -Command \":*)",
+      "Bash(taskkill //F //IM pythonw.exe)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(python -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
+      "Bash(venv/Scripts/python -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
+      "Bash(venv/Scripts/pip install Pillow --quiet)",
+      "Bash(venv/Scripts/python -c \":*)",
+      "Bash(git add config.py core/transcriber.py main.py ui/pill_widget.py README.md launch.bat sflow.ico .claude/settings.local.json)"
     ]
   }
 }

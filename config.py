@@ -12,7 +12,7 @@ GROQ_MODEL = "whisper-large-v3-turbo"
 SAMPLE_RATE = 16000
 CHANNELS = 1
 DTYPE = "int16"
-AUDIO_DEVICE = 2  # Redragon Gaming Headset (cambiar si usas otro mic)
+AUDIO_DEVICE = None  # None = usa el micrófono por defecto del sistema
 MIN_RECORDING_DURATION = 0.3  # segundos — evitar taps accidentales
 
 # UI

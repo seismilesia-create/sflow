@@ -34,6 +34,11 @@ def main():
     visualizer = AudioVisualizer(recorder.audio_queue)
     pill.set_visualizer(visualizer)
 
+    # Conectar toggle de traducción
+    pill.translate_toggled.connect(
+        lambda enabled: setattr(transcriber, 'translate_to_english', enabled)
+    )
+
     def on_hotkey_pressed():
         clipboard.save_frontmost_window()
         recorder.start()
