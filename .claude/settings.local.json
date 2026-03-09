@@ -12,7 +12,11 @@
       "Bash(venv/Scripts/python -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
       "Bash(venv/Scripts/pip install Pillow --quiet)",
       "Bash(venv/Scripts/python -c \":*)",
-      "Bash(git add config.py core/transcriber.py main.py ui/pill_widget.py README.md launch.bat sflow.ico .claude/settings.local.json)"
+      "Bash(git add config.py core/transcriber.py main.py ui/pill_widget.py README.md launch.bat sflow.ico .claude/settings.local.json)",
+      "Bash(git push origin master)",
+      "Bash(powershell -Command \"Get-WmiObject Win32_SoundDevice | Select-Object Name, Status\")",
+      "Bash(powershell -Command \"Start-Process ms-settings:sound\")",
+      "Bash(git add core/recorder.py .claude/settings.local.json)"
     ]
   }
 }
